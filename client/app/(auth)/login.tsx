@@ -12,7 +12,7 @@ export default function Login() {
 
   const handleEmailLogin = async () => {
     if (!email || !password) {
-      Alert.alert("Hata", "Email ve şifre boş olamaz");
+      Alert.alert("Hata", "Email ve şifre boş olamaz !!!");
       return;
     }
 

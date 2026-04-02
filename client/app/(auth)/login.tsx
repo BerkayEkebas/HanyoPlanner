@@ -14,6 +14,8 @@ export default function Login() {
     if (!email || !password) {
       Alert.alert("Hata", "Email ve şifre boş olamaz !!!");
       return;
+
+      
     }
 
     try {
